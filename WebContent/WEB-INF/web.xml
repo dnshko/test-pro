@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+    <servlet>
+        <servlet-name>mytestpro</servlet-name>
+        <servlet-class>mytestpro</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>mytestpro</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+   <servlet>
+        <servlet-name>Sumof</servlet-name>
+        <servlet-class>Sumof</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Sumof</servlet-name>
+        <url-pattern>/Sumof</url-pattern>
+    </servlet-mapping>
+     
+</web-app>
